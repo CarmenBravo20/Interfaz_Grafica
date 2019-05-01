@@ -65,6 +65,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        btnSumar.setBackground(new java.awt.Color(153, 204, 255));
+        btnSumar.setForeground(new java.awt.Color(0, 102, 102));
         btnSumar.setText("Sumar");
         btnSumar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,6 +74,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnRestar.setBackground(new java.awt.Color(153, 204, 255));
+        btnRestar.setForeground(new java.awt.Color(0, 102, 153));
         btnRestar.setText("Restar");
         btnRestar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,6 +83,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnMultiplicar.setBackground(new java.awt.Color(153, 204, 255));
+        btnMultiplicar.setForeground(new java.awt.Color(0, 102, 153));
         btnMultiplicar.setText("Multiplicar");
         btnMultiplicar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,6 +92,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnDividir.setBackground(new java.awt.Color(153, 204, 255));
+        btnDividir.setForeground(new java.awt.Color(0, 102, 102));
         btnDividir.setText("Dividir");
         btnDividir.setToolTipText("");
         btnDividir.addActionListener(new java.awt.event.ActionListener() {
@@ -94,11 +102,12 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 255, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos de Entrada", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         jLabel2.setText("Ingrese el Numero");
 
+        txtNumero1.setBackground(new java.awt.Color(102, 153, 255));
         txtNumero1.setText("0.0");
         txtNumero1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,6 +117,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jLabel3.setText("Ingrese otro Numero");
 
+        txtNumero2.setBackground(new java.awt.Color(51, 153, 255));
         txtNumero2.setText("0.0");
         txtNumero2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
